@@ -1,0 +1,93 @@
+@media(max-widht :600px) {
+    body {
+        width: 580px;
+    }
+}
+
+body {
+    width: 95%;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 15px 10px rgb(75, 73, 73);
+
+}
+
+.navBar {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    box-sizing: content-box;
+}
+
+#title1 {
+    text-align: center;
+}
+
+.introduction {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.link {
+    font-style: normal;
+    justify-content: stretch;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin-inline: 50px;
+    background-color: rgb(49, 46, 46);
+    border-color: bisque;
+    border-width: thick;
+    border-style: groove;
+}
+
+.cards {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: inset;
+    margin: 5%;
+    font-size: 18px;
+
+}
+
+.card {
+    box-shadow: 10px 5px 5px rgb(75, 73, 73);
+    border: 5px black groove;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(49, 46, 46);
+    border: 10px gray groove;
+    color: aliceblue;
+    margin-inline: 20px;
+}
+
+.footerLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: solid;
+}
+
+.footLink {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+    background-color: rgb(49, 46, 46);
+    border: 10px gray groove;
+
+}
+
+a:link {
+    color: aliceblue;
+}
