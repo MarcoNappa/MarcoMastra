@@ -1,7 +1,7 @@
 @media(max-widht :600px) {
     body {
         width: 95%;
-        margin: 2%;
+        margin-block: 2%;
     }
 }
 
@@ -9,7 +9,7 @@ body {
     width: 95%;
     text-align: center;
     box-shadow: 10px 10px 15px 10px rgb(75, 73, 73);
-    margin: 5%;
+    margin: 20PX 20PX 20PX 20PX;
 }
 
 .navBar {
