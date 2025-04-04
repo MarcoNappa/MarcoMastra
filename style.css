@@ -1,9 +1,9 @@
-@media screen and (max-width :576px) {
+@media screen and (max-width :600px) {
     body {
-        width: 550px;
+        width: 95%;
     }
     .cards{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: 1fr
     }
 }
 
